@@ -1,0 +1,6 @@
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\bin\Debug\DLL.dll
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\bin\Debug\DLL.pdb
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\obj\Debug\DLL.csproj.AssemblyReference.cache
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\obj\Debug\DLL.dll
+C:\Users\brand\Documents\CodingSource\Git\DC_AssignmentPartC\DC_AssignmentPartC\DLL\obj\Debug\DLL.pdb

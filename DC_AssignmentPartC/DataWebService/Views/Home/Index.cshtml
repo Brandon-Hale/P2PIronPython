@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model DataWebService.Models.WebsiteModel;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+
+        <div class="section">
+            <h2>Clients:</h2>
+            <ul>
+                @foreach (var client in Model.Clients)
+                {
+                    <li>Username: @client.Username - IP Address: @client.IPAddress - Port: @client.Port</li>
+                }
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Completed Jobs:</h2>
+            <ul>
+                @foreach (var job in Model.Jobs)
+                {
+                    <li>Job ID: @job.Id - Code: @job.Code - Status: @job.Status - @job.Result</li>
+                }
+            </ul>
+        </div>
+    </div>
+    <script src="site.js"></script>
+</body>
+</html>
